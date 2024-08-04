@@ -4,7 +4,17 @@ builder.AddServiceDefaults();
 
 var app = builder.Build();
 
-app.MapGet("/api/{catalog}", (string catalog) =>
-    $"Hello from {catalog}!");
+app.MapGet("/api/catalog", () =>
+{
+    try
+    {
+        return Results.Ok("Hello from CatalogService!");
+    }
+    catch (Exception ex)
+    {
+        Console.WriteLine($"Error: {ex.Message}");
+        return Results.StatusCode(500);
+    }
+});
 
 app.Run();

@@ -1,7 +1,7 @@
 // MusicStreamingApp.AppHost/Program.cs
 var builder = DistributedApplication.CreateBuilder(args);
 
-var apiGateway = builder.AddProject<Projects.NETGroove_ApiService>("apigateway");
+var apiGateway = builder.AddProject<Projects.NETGroove_ApiService>("apiservice").WithHttpsEndpoint(port: 5000, env: "PORT", name: "ApiGateway");
 
 builder.AddProject<Projects.NETGroove_UserService>("userservice")
     .WithReference(apiGateway);

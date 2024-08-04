@@ -5,7 +5,7 @@ VisualStudioVersion = 17.10.35122.118
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{403AB4CE-50E9-46EE-9BC5-7208507E0D07}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NETGroove.AppHost", "src\NETGroove.AppHost\NETGroove.AppHost.csproj", "{B14AD182-1000-4A7E-8696-A450F716DDF4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NETGroove.AppHost", "src\NETGroove.AppHost\NETGroove.AppHost.csproj", "{B14AD182-1000-4A7E-8696-A450F716DDF4}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NETGroove.ServiceDefaults", "src\NETGroove.ServiceDefaults\NETGroove.ServiceDefaults.csproj", "{62520D27-7623-4E9B-B8A0-6E48FCA54802}"
 EndProject
@@ -15,17 +15,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NETGroove.Web", "src\NETGro
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NETGroove.Tests", "src\NETGroove.Tests\NETGroove.Tests.csproj", "{049235AF-DB23-4230-8121-1C3BB63A4336}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NETGroove.UserService", "src\NETGroove.UserService\NETGroove.UserService.csproj", "{42EF3A63-EC08-45D1-AF0D-5688231584A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NETGroove.UserService", "src\NETGroove.UserService\NETGroove.UserService.csproj", "{42EF3A63-EC08-45D1-AF0D-5688231584A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NETGroove.CatalogService", "src\NETGroove.CatalogService\NETGroove.CatalogService.csproj", "{359BF58E-C030-499B-A830-E75757C68D88}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NETGroove.CatalogService", "src\NETGroove.CatalogService\NETGroove.CatalogService.csproj", "{359BF58E-C030-499B-A830-E75757C68D88}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NETGroove.RecommendationService", "src\NETGroove.RecommendationService\NETGroove.RecommendationService.csproj", "{E6EA1874-6935-4C70-97D8-351B8B52F6B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NETGroove.RecommendationService", "src\NETGroove.RecommendationService\NETGroove.RecommendationService.csproj", "{E6EA1874-6935-4C70-97D8-351B8B52F6B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetGroove.StreamingService", "src\NetGroove.StreamingService\NetGroove.StreamingService.csproj", "{BA6F4E2C-B41D-460E-B4A0-70163942E3BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetGroove.StreamingService", "src\NetGroove.StreamingService\NetGroove.StreamingService.csproj", "{BA6F4E2C-B41D-460E-B4A0-70163942E3BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetGroove.ArtistInfoService", "src\NetGroove.ArtistInfoService\NetGroove.ArtistInfoService.csproj", "{023178E4-62E1-4713-B46F-A6CFC8DE4B1A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetGroove.ArtistInfoService", "src\NetGroove.ArtistInfoService\NetGroove.ArtistInfoService.csproj", "{023178E4-62E1-4713-B46F-A6CFC8DE4B1A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NETGroove.PlaylistService", "src\NETGroove.PlaylistService\NETGroove.PlaylistService.csproj", "{090BE1AD-220D-4367-8AA7-8C6BA8F07F74}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NETGroove.PlaylistService", "src\NETGroove.PlaylistService\NETGroove.PlaylistService.csproj", "{090BE1AD-220D-4367-8AA7-8C6BA8F07F74}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
