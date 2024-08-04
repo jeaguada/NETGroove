@@ -1,0 +1,6 @@
+@NETGroove.CatalogService_HostAddress = http://localhost:5128
+
+GET {{NETGroove.CatalogService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

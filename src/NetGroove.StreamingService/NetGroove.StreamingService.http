@@ -1,0 +1,6 @@
+@NetGroove.StreamingService_HostAddress = http://localhost:5101
+
+GET {{NetGroove.StreamingService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
