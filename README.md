@@ -1,8 +1,8 @@
-# ElectroBeat
+# NetGroove
 
-![ElectroBeat Logo](link_to_your_logo.png)
+![NetGroove Logo](link_to_your_logo.png)
 
-ElectroBeat is a cutting-edge electronic music streaming platform built with .NET Aspire, offering a seamless and immersive experience for electronic music enthusiasts.
+NetGroove is a cutting-edge electronic music streaming platform built with .NET Aspire, offering a seamless and immersive experience for electronic music enthusiasts.
 
 ## Table of Contents
 
@@ -129,16 +129,16 @@ dotnet run --project ElectroBeat.AppHost
 
 ## Project Structure
 
-- `NETMusic.AppHost`: Entry point for the Aspire application
-- `NETMusic.ServiceDefaults`: Shared configurations for services
-- `NETMusic.ApiGateway`: API Gateway for routing requests
-- `NETMusic.UserService`: Handles user authentication and profiles
-- `NETMusic.CatalogService`: Manages music catalog
-- `NETMusic.PlaylistService`: Manages playlists
-- `NETMusic.StreamingService`: Handles audio streaming
-- `NETMusic.RecommendationService`: Generates personalized recommendations
-- `NETMusic.ArtistInfoService`: Fetches and manages artist information
-- `NETMusic.Web`: Web frontend application
+- `NetGroove.AppHost`: Entry point for the Aspire application
+- `NetGroove.ServiceDefaults`: Shared configurations for services
+- `NetGroove.ApiGateway`: API Gateway for routing requests
+- `NetGroove.UserService`: Handles user authentication and profiles
+- `NetGroove.CatalogService`: Manages music catalog
+- `NetGroove.PlaylistService`: Manages playlists
+- `NetGroove.StreamingService`: Handles audio streaming
+- `NetGroove.RecommendationService`: Generates personalized recommendations
+- `NetGroove.ArtistInfoService`: Fetches and manages artist information
+- `NetGroove.Web`: Web frontend application
 
 ## DB Diagram
 
