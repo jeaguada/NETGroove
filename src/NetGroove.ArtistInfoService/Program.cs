@@ -4,6 +4,6 @@ builder.AddServiceDefaults();
 
 var app = builder.Build();
 
-app.MapGet("/api/users", () => Results.Ok("Hello from UserService!"));
+app.MapGet("/api/artistinfo", () => Results.Ok("Hello from Artist Info!"));
 
 app.Run();
